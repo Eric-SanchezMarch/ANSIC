@@ -7,5 +7,6 @@ facilitar el aprendizaje de los estandares.
 Ire actualizando poco a poco hasta completarlo y por supuesto es bienvenida la colaboracion externa 
 para aportar diferentes enfoques y ejemplos para el uso correcto del lenguaje C.
 
+Las funciones de C estan organizadas por librerias, cada carpeta aqui representa una libreria ANSI-C
 
 

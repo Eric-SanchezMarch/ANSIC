@@ -1,0 +1,34 @@
+lib: <ctype.h> 
+
+
+Ens permet transformar caracters dins de un string o vector de minuscules a majuscules i vicebersa.
+Conte 12 macros per a comprovar el tipus de valor de un caracter.
+
+Les seves funcions son:
+
+	- tolower para pasar majuscules a minuscules.
+	- toupper para pasar minuscules a majuscules.
+
+Les seves macros:
+
+	-isalnum	-> Per a comprovar si un caracter es alfanumeric.
+	-isalpha	-> Per a comprovar si un caracter es alfabetic.
+	-isascii	-> Per a comprovar si un caracter es ascii.
+	-iscntrl	-> Per a comprovar si un caracter es de control.
+	-isdigit	-> Per a comprovar si un caracter es un digit decimal.
+	-isgraph	-> Per a comprovar si un caracter es imprimible.
+	-islower	-> Per a comprovar si un caracter es minuscula.
+	-isprint	-> Per a comprovar si un caracter es imprimible.
+	-ispunct	-> Per a comprovar si un caracter correspon a un signe de puntuacio.
+	-isspase	-> Per a  comprovar si un caracter es de tipo espai.
+	-isupper	-> Per a comprovar si un caracter es majuscula.
+	-isxdigit	-> Per a comprovar si un caracter es hexadecimal.
+
+Utilitats:
+
+	Aquesta llibreria seria util en un cas on estingues que fer formularis d'entrada.
+
+	Ens permetria per exemple arreglar les entrades per strings com nom, cognoms
+	o productes i poder arreglar directament la majuscula inicial.
+	Ames que ens permetra comprovar i filtrar nomes els tipus de caracters desitjats
+	evitant posibles errors d'entrada dinformacio.

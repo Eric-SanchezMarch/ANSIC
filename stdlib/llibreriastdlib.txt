@@ -1,0 +1,122 @@
+
+
+
+Convertir en numeros absoluts int i long int
+
+	abs		canvia el valor de una variable int a valor positiu
+	labs		La función labs retorna el valor absoluto (de tipo long int).
+	
+	
+finalitzar procesos o funcions
+	
+	abort		com break, aborta un bucle
+	atexit		avans de sortir del programa pasara per atexit.
+	exit		Ocasiona una terminacio normal del programa, avans es crida a les funcions atexit.
+	
+	
+convertir strings en diferents valors numerics
+	
+	atof		converteix numeros de text en numeros float
+	atoi		converteix numeros de text en numeros int
+	atol		converteix numeros de text en numeros long
+	
+	
+	
+	
+	
+	
+multibytes
+		
+	mblen	determina el número de bytes contenidos en el carácter multibyte apuntado por cad.
+	
+	mbstowcs	convierte una secuenca de caracteres multibyte que empiezan en el estado
+				inicial de traslado del array apuntado por cad en una secuencia códigos correspondientes y guarda
+				no más de n códigos en un array apuntado por wcharsPtr.
+				
+	mbtowc		la función mbtowc determina el número de bytes contenidos en el carácter
+				multibyte apuntado por cad
+	
+	wctomb		Determina el número de bytes necesitado para representar un carácter multibyte correspondiendo al código
+				cuyo valor es wchar
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Numeros aleatoris
+	
+	rand		La funcio rand calcula una secuencia de numeros enters pseudo-aleatoris
+				en el inverval de 0 a RAND_MAX
+						
+	srand		Usa el argumento como una semilla para una secuencia nueva de números pseudo-aleatorios para ser retornados por
+				llamadas posteriores a rand.
+						
+						
+	
+
+
+transformar valors	de variables
+
+	strtod		Convierte la porción inicial de la cadena apuntada por numPtr a una representación de long int.
+	
+	strtol		Convierte la porción inicial de la cadena apuntada por numPtr a una representación de long int.
+	
+	strtoul		Convierte la porción inicial de la cadena apuntada por numPtr a una representación de unsigned long int.
+	
+	
+	
+procesador de comandes
+
+	system		Pasa la cadena apuntada por cadena al entorno local para ser ejecutada por el "procesador de comandos"
+	
+	getenv		Busca una "lista de entorno"	
+	
+	
+	
+	
+	
+	
+
+manipulacio d'arrays
+
+	calloc		adjudica espai para un array de nmemb objectes
+	
+	free		allibera espai a un array
+	
+	qsort		Ordena un array de nmemb objetos		*** falta informacio
+	
+	bsearch		busca informacio dins de arrays 	*** falta compendrel
+	
+	
+	
+Manipulacio d'objectes
+
+	malloc		Adjudica espacio para un objeto
+	
+	realloc		Cambia el tamaño del objeto apuntado por ptr al tamaño especificado por tamanyo.
+	
+	
+	
+estructura resultats divisio
+
+	div			calcula el cocient i el resto de la divisio i aguarda els valors a la estructura div_t
+	
+	ldiv		es un tipo de estructura similar a div per arguments de tipo long int.
+	
+	
+	
+	
+
+
+
+
+
+
+	
+
+	
+	

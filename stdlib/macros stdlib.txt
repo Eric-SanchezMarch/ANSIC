@@ -1,0 +1,72 @@
+/*
+
+Macros EXIT_FAILURE, EXIT_SUCCESS
+
+#define EXIT_FAILURE
+#define EXIT_SUCCESS
+
+	Expresiones enteras que pueden ser usadas como el argumento para la función exit
+	para retornar el estado de terminación sin o con éxito, respectivamente, al entorno
+	local.
+	
+----DJGPP-------------	
+#define EXIT_FAILURE 1			
+#define EXIT_SUCCESS 0
+
+
+
+----Borland-----------
+#define EXIT_SUCCESS 0
+#define EXIT_FAILURE 1
+
+
+
+----Dev-C++-------------
+#define EXIT_SUCCESS 0
+#define EXIT_FAILURE -1
+
+
+Macro MB_CUR_MAX
+
+	Una expresión entera positiva cuyo valor es el número máximo de bytes en un carácter
+	multibyte para el conjunto de caracteres extendidos especificado por la localización
+	actual (categoría LC_CTYPE), y cuyo valor no es nunca mayor que MB_LEN_MAX.
+
+
+
+----DJGPP-------------	
+#define MB_CUR_MAX 1
+
+
+----Borland-----------
+#define MB_CUR_MAX 1
+
+
+----Dev-C++-------------
+SIN DEFINIR
+
+
+Macro RAND_MAX
+
+	Un Expresión constante de intervalo, el valor del cual es el valor máximo retorando por
+	la función rand. El valor de la macro RAND_MAX será de al menos 32767.
+
+----DJGPP-------------	
+#define RAND_MAX 2147483647
+
+
+----Borland-----------
+#define RAND_MAX 0x7FFFU
+
+
+----Dev-C++-------------
+#define RAND_MAX 0x7FFF
+
+
+
+
+
+
+
+
+*/

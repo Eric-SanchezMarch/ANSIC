@@ -1,0 +1,121 @@
+Tipo div_t
+
+	typedef <tipo> div_t;			
+	Un tipo de estructura que es el tipo del valor retornado por la función div
+				
+----DJGPP-------------	
+typedef struct {
+ int quot;
+ int rem;
+} div_t;
+
+
+----Borland-----------
+typedef struct {
+ int quot;
+ int rem;
+} div_t;
+
+
+----Dev-C++-------------
+typedef struct { int quot, rem; } div_t
+
+
+
+Tipo ldiv_t
+
+	typedef <tipo> ldiv_t;
+	Un tipo de estructura que es el tipo del valor retornado por la función ldiv.
+	
+	
+----DJGPP-------------	
+typedef struct {
+ long quot;
+ long rem;
+} ldiv_t;
+
+
+----Borland-----------
+typedef struct {
+ long quot;
+ long rem;
+} ldiv_t;
+
+
+----Dev-C++-------------
+typedef struct { long quot, rem; } ldiv_t;
+
+
+
+Tipo size_t 
+
+		El tipo entero sin signo que es el resultado del operador sizeof.
+
+
+----DJGPP-------------	
+typedef long unsigned int size_t;
+
+
+----Borland-----------
+typedef unsigned size_t;
+
+
+----Dev-C++-------------
+typedef long unsigned int size_t;
+
+
+
+
+Tipo wchar_t
+
+	typedef <tipo> wchar_t;
+	Un tipo entero cuyo intervalo de valores puede representar códigos únicos para todos
+	los miembros del conjunto más grande de caracteres extendidos especificado de entre
+	las localidades soportadas; el carácter nulo tendrá el número de código, cero, y cada
+	miembro del conjunto básico de caracteres el número de código igual a su valor cuando
+	usado como el carácter único en una constante de caracteres enteros.
+
+
+----DJGPP-------------	
+#define __DJ_wchar_t typedef unsigned short wchar_t;
+
+----Borland-----------
+typedef unsigned short wchar_t;
+
+
+----Dev-C++-------------
+#define __WCHAR_TYPE__ int
+#endif
+#ifndef __cplusplus
+typedef __WCHAR_TYPE__ wchar_t;
+#endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
